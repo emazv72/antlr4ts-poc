@@ -1,0 +1,22 @@
+{
+  "name": "antlr4ts-poc",
+  "version": "1.0.0",
+  "description": "Testing antlr4 capabilities",
+  "scripts": {
+    "gen": "antlr4ts gyoo.g4 -visitor -o src/gen",
+    "test": "ts-node src/ts/gyRunner.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "antlr4ts": "~0.4.1-alpha.0"
+  },
+  "devDependencies": {
+    "antlr4ts-cli": "~0.4.0-alpha.4",
+    "@types/node": "~9.3.0",
+    "ts-node": "~4.1.0",
+    "typescript": "~2.6.2"
+  },
+  "peerDependencies": {}
+}

@@ -1,0 +1,7 @@
+begin 
+
+    let x be 1
+    add 1 to x
+    print x
+
+end
